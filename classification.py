@@ -251,6 +251,7 @@ if __name__ == "__main__":
     parser.add_argument("--device", type=str, default="cuda")
     parser.add_argument("--model", type=str, default="distilbert-base-uncased")
 
+    # Am getting register_bugger erorr
     args = parser.parse_args()
     print(f"Specified arguments: {args}")
 
