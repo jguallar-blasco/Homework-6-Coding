@@ -1,0 +1,667 @@
+Could not find conda environment: toy_classification_env
+You can list all discoverable environments with `conda info --envs`.
+
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: torch==1.13.1 in ./.local/lib/python3.8/site-packages (from -r requirements.txt (line 1)) (1.13.1)
+Requirement already satisfied: scikit-learn==0.24.2 in ./.local/lib/python3.8/site-packages (from -r requirements.txt (line 2)) (0.24.2)
+Requirement already satisfied: tqdm==4.64.1 in ./.local/lib/python3.8/site-packages (from -r requirements.txt (line 3)) (4.64.1)
+Requirement already satisfied: transformers==4.26.1 in ./.local/lib/python3.8/site-packages (from -r requirements.txt (line 4)) (4.26.1)
+Requirement already satisfied: datasets==2.10.0 in ./.local/lib/python3.8/site-packages (from -r requirements.txt (line 5)) (2.10.0)
+Requirement already satisfied: evaluate==0.4.0 in ./.local/lib/python3.8/site-packages (from -r requirements.txt (line 6)) (0.4.0)
+Collecting typing-extensions==3.10.0.0
+  Using cached typing_extensions-3.10.0.0-py3-none-any.whl (26 kB)
+Collecting torchvision
+  Using cached torchvision-0.15.1-cp38-cp38-manylinux1_x86_64.whl (33.8 MB)
+Collecting torchaudio
+  Using cached torchaudio-2.0.1-cp38-cp38-manylinux1_x86_64.whl (4.4 MB)
+Requirement already satisfied: numpy in /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu/lib/python3.8/site-packages (from -r requirements.txt (line 10)) (1.18.5)
+Requirement already satisfied: matplotlib in /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu/lib/python3.8/site-packages (from -r requirements.txt (line 11)) (3.2.2)
+ERROR: Could not find a version that satisfies the requirement os (from -r requirements.txt (line 12)) (from versions: none)
+ERROR: No matching distribution found for os (from -r requirements.txt (line 12))
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already up-to-date: typing-extensions in ./.local/lib/python3.8/site-packages (4.5.0)
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already up-to-date: openai in ./.local/lib/python3.8/site-packages (0.27.2)
+Requirement already satisfied, skipping upgrade: requests>=2.20 in /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu/lib/python3.8/site-packages (from openai) (2.24.0)
+Requirement already satisfied, skipping upgrade: tqdm in ./.local/lib/python3.8/site-packages (from openai) (4.64.1)
+Requirement already satisfied, skipping upgrade: aiohttp in ./.local/lib/python3.8/site-packages (from openai) (3.8.4)
+Requirement already satisfied, skipping upgrade: certifi>=2017.4.17 in /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu/lib/python3.8/site-packages (from requests>=2.20->openai) (2020.6.20)
+Requirement already satisfied, skipping upgrade: idna<3,>=2.5 in /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu/lib/python3.8/site-packages (from requests>=2.20->openai) (2.10)
+Requirement already satisfied, skipping upgrade: chardet<4,>=3.0.2 in /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu/lib/python3.8/site-packages (from requests>=2.20->openai) (3.0.4)
+Requirement already satisfied, skipping upgrade: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu/lib/python3.8/site-packages (from requests>=2.20->openai) (1.25.9)
+Requirement already satisfied, skipping upgrade: charset-normalizer<4.0,>=2.0 in ./.local/lib/python3.8/site-packages (from aiohttp->openai) (3.1.0)
+Requirement already satisfied, skipping upgrade: async-timeout<5.0,>=4.0.0a3 in ./.local/lib/python3.8/site-packages (from aiohttp->openai) (4.0.2)
+Requirement already satisfied, skipping upgrade: yarl<2.0,>=1.0 in ./.local/lib/python3.8/site-packages (from aiohttp->openai) (1.8.2)
+Requirement already satisfied, skipping upgrade: frozenlist>=1.1.1 in ./.local/lib/python3.8/site-packages (from aiohttp->openai) (1.3.3)
+Requirement already satisfied, skipping upgrade: multidict<7.0,>=4.5 in ./.local/lib/python3.8/site-packages (from aiohttp->openai) (6.0.4)
+Requirement already satisfied, skipping upgrade: attrs>=17.3.0 in /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu/lib/python3.8/site-packages (from aiohttp->openai) (19.3.0)
+Requirement already satisfied, skipping upgrade: aiosignal>=1.1.2 in ./.local/lib/python3.8/site-packages (from aiohttp->openai) (1.3.1)
+python: can't open file 'setup.py': [Errno 2] No such file or directory
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: accelerate in ./.local/lib/python3.8/site-packages (0.18.0)
+Requirement already satisfied: torch>=1.4.0 in ./.local/lib/python3.8/site-packages (from accelerate) (1.13.1)
+Requirement already satisfied: psutil in /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu/lib/python3.8/site-packages (from accelerate) (5.7.0)
+Requirement already satisfied: pyyaml in /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu/lib/python3.8/site-packages (from accelerate) (5.3.1)
+Requirement already satisfied: packaging>=20.0 in /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu/lib/python3.8/site-packages (from accelerate) (20.4)
+Requirement already satisfied: numpy>=1.17 in /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu/lib/python3.8/site-packages (from accelerate) (1.18.5)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu11==11.7.99; platform_system == "Linux" in ./.local/lib/python3.8/site-packages (from torch>=1.4.0->accelerate) (11.7.99)
+Requirement already satisfied: typing-extensions in ./.local/lib/python3.8/site-packages (from torch>=1.4.0->accelerate) (4.5.0)
+Requirement already satisfied: nvidia-cuda-runtime-cu11==11.7.99; platform_system == "Linux" in ./.local/lib/python3.8/site-packages (from torch>=1.4.0->accelerate) (11.7.99)
+Requirement already satisfied: nvidia-cudnn-cu11==8.5.0.96; platform_system == "Linux" in ./.local/lib/python3.8/site-packages (from torch>=1.4.0->accelerate) (8.5.0.96)
+Requirement already satisfied: nvidia-cublas-cu11==11.10.3.66; platform_system == "Linux" in ./.local/lib/python3.8/site-packages (from torch>=1.4.0->accelerate) (11.10.3.66)
+Requirement already satisfied: six in /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu/lib/python3.8/site-packages (from packaging>=20.0->accelerate) (1.15.0)
+Requirement already satisfied: pyparsing>=2.0.2 in /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu/lib/python3.8/site-packages (from packaging>=20.0->accelerate) (2.4.7)
+Requirement already satisfied: wheel in /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu/lib/python3.8/site-packages (from nvidia-cuda-runtime-cu11==11.7.99; platform_system == "Linux"->torch>=1.4.0->accelerate) (0.34.2)
+Requirement already satisfied: setuptools in /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu/lib/python3.8/site-packages (from nvidia-cuda-runtime-cu11==11.7.99; platform_system == "Linux"->torch>=1.4.0->accelerate) (49.2.0.post20200714)
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: ...working... failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu
+
+  added / updated specs:
+    - faiss-gpu
+
+
+The following NEW packages will be INSTALLED:
+
+  cudatoolkit        pkgs/main/linux-64::cudatoolkit-10.2.89-hfd86e86_1
+  faiss-gpu          pytorch/linux-64::faiss-gpu-1.7.3-py3.8_h98e120b_0_cuda10.2
+  libfaiss           pytorch/linux-64::libfaiss-1.7.3-hdbd6f0c_0_cuda10.2
+
+The following packages will be UPDATED:
+
+  conda                                        4.8.3-py38_0 --> 4.12.0-py38h06a4308_0
+
+
+Proceed ([y]/n)? 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... failed
+
+EnvironmentNotWritableError: The current user does not have write permissions to the target environment.
+  environment location: /data/apps/linux-centos8-cascadelake/gcc-9.3.0/anaconda3-2020.07-i7qavhiohb2uwqs4eqjeefzx3kp5jqdu
+  uid: 3067
+  gid: 1508
+
+
+Found cached dataset boolq (/home/rsiege15/.cache/huggingface/datasets/boolq/default/0.1.0/bf0dd57da941c50de94ae3ce3cef7fea48c08f337a4b7aac484e9dddc5aa24e5)
+Specified arguments: Namespace(batch_size=32, device='cuda', experiment='overfit', lr=0.001, model='GPT-3', num_epochs=9, small_subset=True)
+['In 1884, Germany formally took possession of the northeast quarter of the island and it became known as German New Guinea. In 1884, a British protectorate was proclaimed over Papua -- the southern coast of New Guinea. The protectorate, called British New Guinea, was annexed outright on 4 September 1888 and possession passed to the newly federated Commonwealth of Australia in 1902 and British New Guinea became the Australian Territory of Papua, with Australian administration beginning in 1906.', "Heavy metal artist Ozzy Osbourne sings the show's theme song, ``Dog the Bounty Hunter''. The song can be heard on Osbourne's Prince of Darkness box set. Many episodes feature at least one song from a band that is either unsigned or with an independent label, usually played during an action scene. These songs are plugged at the end of each episode, following the closing credits. Several episodes in season three and four have music from New York City-based dub reggae group Subatomic Sound System's On All Frequencies album. Featured songs include: ``Criminal'', ``Doin' It'', and ``Ghetto Champion''. Soulja Boy's music video for ``Yahhh!'' includes an impersonation of ``Dog Woof Woof''", "The act of awarding a cap is now international and is applied to other sports. Although in some sports physical caps may not now always be given (whether at all or for each appearance) the term ``cap'' for an international or other appearance has been retained as an indicator of the number of occasions on which a sportsperson has represented a team in a particular sport. Thus, a ``cap'' is awarded for each game played and so a player who has played x games, for the team, is said to have been capped x times or have won x caps.", 'Wikipedia offers free copies of all available content to interested users. These databases can be used for mirroring, personal use, informal backups, offline use or database queries (such as for Wikipedia:Maintenance). All text content is multi-licensed under the Creative Commons Attribution-ShareAlike 3.0 License (CC-BY-SA) and the GNU Free Documentation License (GFDL). Images and other files are available under different terms, as detailed on their description pages. For our advice about complying with these licenses, see Wikipedia:Copyrights.', "Freedom of expression in Canada is protected as a ``fundamental freedom'' by Section 2 of the Canadian Charter of Rights and Freedoms.", 'The federal courts are composed of three levels of courts. The Supreme Court of the United States is the court of last resort. It is generally an appellate court that operates under discretionary review, which means that the Court can choose which cases to hear, by granting writs of certiorari. There is therefore generally no basic right of appeal that extends automatically all the way to the Supreme Court. In a few situations (like lawsuits between state governments or some cases between the federal government and a state) it sits as a court of original jurisdiction.', "Undergraduate education is the post-secondary education previous to the postgraduate education. It includes all the academic programs up to the level of a bachelor's degree. For example, in the United States, an entry level university student is known as an undergraduate, while students of higher degrees are known as graduates. In some other educational systems and subjects, undergraduate education is post-secondary education up to the level of a master's degree; this is the case for some science courses in Britain and some medicine courses in Europe.", 'The Anacardiaceae, commonly known as the cashew family or sumac family, are a family of flowering plants, including about 83 genera with about 860 known species. Members of the Anacardiaceae bear fruits that are drupes and in some cases produce urushiol, an irritant. The Anacardiaceae include numerous genera, several of which are economically important, notably cashew (in the type genus Anacardium), mango, poison ivy, sumac, smoke tree, marula, yellow mombin, and cuachalalate. The genus Pistacia (which includes the pistachio and mastic tree) is now included, but was previously placed in its own family, the Pistaciaceae.', "Under the U.S. Constitution, the power of Congress to enact criminal statutes is limited; the federal government lacks ``plenary criminal jurisdiction.'' The powers of Congress to enact criminal laws ``are not boundless.'' The U.S. Constitution mentions explicit authority for Congress in three areas: (1) counterfeiting, (2) piracy and felony on the high seas and offenses against the law of nations, and (3) treason. However, the ``necessary and proper'' clause of the Constitution gives Congress ``broad power to enact laws that are 'convenient or useful' or 'conductive' to the authority's 'beneficial exercise' ``.", "Although five of the first six winners were perimeter players, the award has traditionally been given to big men who rebound and block shots. Only seven perimeter players have been honored: Moncrief, Alvin Robertson, Michael Cooper, Michael Jordan, Gary Payton, Ron Artest (known now as Metta World Peace), and Kawhi Leonard. Payton is the only point guard to have won. Jordan, Olajuwon, David Robinson, and Kevin Garnett are the only Defensive Player of the Year winners to have won the NBA Most Valuable Player Award (MVP) during their careers; Jordan and Olajuwon won both awards in the same season. In Olajuwon's case, he is the only one to have also won the Bill Russell NBA Finals Most Valuable Player Award and the NBA championship in the same season. On four occasions, the Defensive Player of the Year recipient was not voted to the NBA All-Defensive First Team in the same year. Robertson in 1986, Mutombo (1995), Tyson Chandler (2012), and Marc Gasol (2013) were instead named to the second team. Whereas the Defensive Player of the Year is voted on by the media, the All-Defensive teams were voted on by NBA coaches prior to 2014.", "After working as a performer with Buffalo Bill's Wild West show, Sitting Bull returned to the Standing Rock Agency in South Dakota. Because of fears that he would use his influence to support the Ghost Dance movement, Indian Service agent James McLaughlin at Fort Yates ordered his arrest. During an ensuing struggle between Sitting Bull's followers and the agency police, Sitting Bull was shot in the side and head by Standing Rock policemen Lieutenant Bull Head (Tatankapah, Lakota: Tȟatȟáŋka Pȟá) and Red Tomahawk (Marcelus Chankpidutah, Lakota: Čhaŋȟpí Dúta) after the police were fired upon by Sitting Bull's supporters. His body was taken to nearby Fort Yates for burial. In 1953, his Lakota family exhumed what were believed to be his remains, reburying them near Mobridge, South Dakota, near his birthplace.", "For healthy people, the Target Heart Rate or Training Heart Rate (THR) is a desired range of heart rate reached during aerobic exercise which enables one's heart and lungs to receive the most benefit from a workout. This theoretical range varies based mostly on age; however, a person's physical condition, sex, and previous training also are used in the calculation. Below are two ways to calculate one's THR. In each of these methods, there is an element called ``intensity'' which is expressed as a percentage. The THR can be calculated as a range of 65--85% intensity. However, it is crucial to derive an accurate HR to ensure these calculations are meaningful.", 'Fear the Walking Dead is an American post-apocalyptic horror drama television series created by Robert Kirkman and Dave Erickson, that premiered on AMC on August 23, 2015. It is a companion series and prequel to The Walking Dead, which is based on the comic book series of the same name by Robert Kirkman, Tony Moore, and Charlie Adlard.', "Harris contacts Flynn, telling him that anti-venom will be ready for the passengers when they land. However, Flynn discovers that the cockpit is filled with snakes and Rick is dead. After a brief discussion, Troy, Three Gs' bodyguard, agrees to land the plane based on prior flight experience. After everyone gets prepared, Flynn shoots out two windows with his pistol, causing the plane to depressurize. The snakes are blown out of the cockpit and the lower floor of the plane. Flynn and Troy take the controls of the plane and Troy reveals that his flight experience was from a video game flight simulator. Despite his lack of real-world experience, after Troy makes an emergency landing, the plane makes it to the terminal. The passengers leave the plane and anti-venom is given to those who need it. Just as Flynn and Sean are about to disembark the plane, a final snake jumps out and bites Sean in the chest. Flynn draws his gun and shoots the snake, and paramedics rush to Sean, who is unharmed due to his wearing a ballistic vest. As a token of gratitude, Sean later takes Flynn to Bali and teaches him how to surf.", 'It can be found on tap at almost any bar in New South Wales. It was first brewed in 1931 and was marketed under the name Tooheys New Special. In the 1970s, the beer began being marketed as Tooheys New Special Draught when sold in cans and bottles, later shortened to Tooheys Draught. Tap beer was still sold as Tooheys New, however. In 1998, the company decided to sell the beer under one name across all modes as Tooheys New.', "The concept of mourning jewelry, which is colored black, is becoming an accepted, visible custom for widows and widowers. Usually a black wedding band is worn on the third finger of the left hand. Usually the ring is a black wedding band, but black eternity bands and black solitaires are also worn. Such jewelry is denominated a ``widow's ring'' and the mourning ring is added to the marriage ring(s) and worn for the duration of the mourning period.", "Friday Night Lights is a 2004 American sports drama film, directed by Peter Berg, which 'dramatized' the coach and players of a high school football team in the Texas city of Odessa that supported and was obsessed with them. The book on which it was based, Friday Night Lights: A Town, a Team, and a Dream (1990) by H.G. Bissinger, followed the story of the 1988 Permian High School Panthers football team as they made a run towards the state championship. A television series of the same name premiered on October 3, 2006 on NBC. The film won the Best Sports Movie ESPY Award and was ranked number 37 on Entertainment Weekly's list of the Best High School Movies.", "Magnus Chase receives an ocean survival lesson from Percy Jackson, a Greek demigod who is his cousin Annabeth Chase's boyfriend. The latter advises him, mentioning the possessiveness of sea gods over their weapons. Alex Fierro and Magnus travel to the Chase Mansion, where they recover notes scribbled by Randolph at different points of time. Alex feels that these notes hold the key to defeat Loki. After reaching Valhalla, Magnus summons a ship gifted by his father Frey. Mallory Keen, Halfborn Gunderson, Thomas Jefferson Jr., Samirah Al Abbas and Alex accompany Magnus, while they plan to pick Blitzen and Hearthstone along the way. The crew's talk is heard by the Nine Billow Maidens, who take them to the court of Aegir, where they discover Hearth and Blitz are held prisoner. Aegir's eldest daughter realizes Magnus' identity, from his previous encounter with her mother Ran. Magnus swears by his troth to defeat Loki in a flyting contest and to avenge Aegir's humiliation, but the crew is nevertheless attacked. They escape with the help of Magnus' grandfather Njord. Njord instructs them and tells Magnus that the only way to defeat Loki is by drinking Kvasir's mead. The crew continue on their journey, with Blitz and Hearth travelling separately to retrieve Bolverk's whetstone.", "Pokémon: Let's Go, Pikachu! and Let's Go, Eevee! (Japanese: ポケットモンスター Let's Go! ピカチュウ・Let's Go! イーブイ Hepburn: Poketto Monsutā Let's GO! Pikachū・Let's GO! Ībui, ``Pocket Monsters: Let's GO Pikachu and Let's GO Eevee) are upcoming role-playing video games (RPGs) developed by Game Freak and published by The Pokémon Company and Nintendo for the Nintendo Switch. The games are the first installments of the main Pokémon RPG series for the Nintendo Switch. They are enhanced remakes of the 1998 video game Pokémon Yellow, they will also contain influences from Pokémon Go, as well as integration with Go, and will support a new optional controller called the Poké Ball Plus. The games are scheduled to be released worldwide on November 16, 2018.", "Daucus carota, whose common names include wild carrot, bird's nest, bishop's lace, and Queen Anne's lace (North America), is a white, flowering plant in the family Apiaceae, native to temperate regions of Europe and southwest Asia, and naturalized to North America and Australia.", 'On April 18, 2018, CBS renewed the series for a ninth season. As of May 11, 2018, 177 episodes of Blue Bloods have aired, concluding the eighth season.', 'New York City, the most populous city in the United States, is home to over 6,486 completed high rise buildings of at least 35 meters, of which at least 113 completed are taller than 600 feet (183 m). The tallest building in New York is One World Trade Center, which rises 1,776 feet (541 m). The 104-story skyscraper also stands as the tallest building in the United States, the tallest building in the Western Hemisphere, and the sixth-tallest building in the world. The second-tallest building in the city is 432 Park Avenue, standing at 1,396 feet (426 m), and the third-tallest is the recently-topped-out 30 Hudson Yards. Not counting its antenna, the 4th-tallest is the 102-story Empire State Building in Midtown Manhattan, which was finished in 1931 and rises to 1,250 feet (381 m), increased to 1,454 feet (443 m) by its antenna. It is the fifth-tallest building in the United States and the 37th-tallest building in the world.', "Marcus James Jordan (born December 24, 1990) is an American former college basketball player who played for the UCF Knights men's basketball team of Conference USA. He is the son of Hall of Fame basketball superstar Michael Jordan.", "I Am Number Four is the first book in the Lorien Legacies series. It introduces readers to the Loric, an almost extinct race of extraterrestrials represented by nine teenagers living on Earth. Another alien race, the Mogadorians, wiped out the majority of the Loric, except those who escaped to Earth. Now the Mogadorians have come to finish the job. John ended up befriending a young man named Sam Goode, whose father had helped the Loriens when they first arrived, who has now mysteriously disappered. Then John laid his eyes on Sarah Hart a beautiful girl who has been taking photos and posting them on her website ``Strangers In Paradise''. John goes home to find the website and saw a few pictures of him and then disappear.Deleted. John then ended up going out with sarah for the remainder of the book. John and sarah end up at the high school and then find out that the Mogs have found them. John tries to get himself and Sarah out of harms way when Number Six comes out of nowhere and kills two mogs in a matter of seconds. John thanks her then they work their way through the school, killing the mog commander sent after him. The school is half destroyed, reduced to a massive pile of rubble, the football field has a massive crater in the center and then John, Six, Henri (He died earlier on), and Sam being a possible hostage. The book is told from the perspective of Number Four, also known as John Smith. John is the next target for the Mogadorians, who must kill the Loric in the order of their numbers. John is also inheriting Legacies, the ancestral right of some Loric, and must learn to keep his powers hidden from his human friends.", 'Tokyo Skytree (東京スカイツリー, Tōkyō Sukaitsurī) is a broadcasting, restaurant, and observation tower in Sumida, Tokyo, Japan. It became the tallest structure in Japan in 2010 and reached its full height of 634.0 metres (2,080 ft) in March 2011, making it the tallest tower in the world, displacing the Canton Tower, and the second tallest structure in the world after the Burj Khalifa (829.8 m/2,722 ft).', 'In optics, a virtual image is an image formed when the outgoing rays from a point on an object always diverge. The image appears to be located at the point of apparent divergence. Because the rays never really converge, a virtual image cannot be projected onto a screen. In diagrams of optical systems, virtual rays are conventionally represented by dotted lines. Virtual images are located by tracing the real rays that emerge from an optical device (lens, mirror, or some combination) backward to a perceived point of origin.', 'In 2011, screenwriter Noxon told Collider.com that plans for an imminent sequel were shelved due to the disappointing performance of the first installment at the box office.', 'The Selective Service System is an independent agency of the United States government that maintains information on those potentially subject to military conscription. Virtually all male U.S. citizens and male immigrant non-citizens between the ages of 18 and 25 are required by law to have registered within 30 days of their 18th birthdays and must notify Selective Service within ten days of any changes to any of the information they provided on their registration cards, like a change of address. A 2010 Government Accountability Office report estimated the registration rate at 92% with the names and addresses of over 16.2 million men on file. However, the only audit of the addresses of registrants on file with the Selective Service System, in 1982, found that 20--40% of the addresses on file with the Selective Service System for registrants in the age groups that would be drafted first were already outdated, and up to 75% for those registrants in their last year of potential eligibility to be drafted would be invalid.', 'Several paleontologists suggest the possibility of two separate brown bear migrations: inland brown bears, also known as grizzlies, are thought to stem from narrow-skulled bears which migrated from northern Siberia to central Alaska and the rest of the continent, while Kodiak bears descend from broad-skulled bears from Kamchatka, which colonized the Alaskan peninsula. Brown bear fossils discovered in Ontario, Ohio, Kentucky and Labrador show the species occurred farther east than indicated in historic records. In North America, two types of the subspecies Ursus arctos horribilis are generally recognized--the coastal brown bear and the inland grizzly bear; these two types broadly define the range of sizes of all brown bear subspecies.', "Its flagship brands include Victoria's Secret and Bath & Body Works. L Brands posted $10.5 billion in revenue in 2013, and was listed as #258 in the 2013 Fortune 500 list of top companies."]
+['was papua new guinea ever part of australia', 'does ozzy sing the theme song for dog the bounty hunter', 'do players get a cap for every game', 'is it possible to download all of wikipedia', 'is there a freedom of speech in canada', 'is the federal court the same as the supreme court', 'is a high school student considered an undergraduate', 'is mango in the same family as poison ivy', 'can the federal government make criminal laws on any matter', 'has anyone ever won mvp and defensive player of the year', 'was sitting bull in the wild west show', "the target hr zone is the range between 60 - 80 of an individual's maximum hr", 'is fear of the walking dead before the walking dead', 'does samuel l jackson die in snakes on a plane', 'is tooheys new the same as tooheys draught', "is there such a thing as a widow's ring", 'is friday night lights movie based on a true story', 'is percy in the ship of the dead', "is let's go pikachu a yellow remake", "is queen anne's lace and wild carrot the same thing", 'was this the last season of blue bloods', 'is one world trade center taller than the empire state building', "does michael jordan's son still play basketball", 'is there an i am number four sequel', 'is tokyo sky tree is the tallest tower in the world', 'can you see a virtual image on a screen', 'will there ever be a sequel to i am number 4', 'is it still the law to register for the draft', 'is a grizzly the same as a brown bear', 'is victoria secret and bath and body works the same company']
+[True, True, True, True, True, False, False, True, False, True, True, False, True, False, True, True, True, True, True, True, False, True, False, True, True, False, False, True, False, True]
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\ntrue"
+    }
+  ],
+  "created": 1680294462,
+  "id": "cmpl-70FdW7e3rr9MsaU868PAT26idca6R",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1104,
+    "total_tokens": 1108
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\ntrue"
+    }
+  ],
+  "created": 1680294462,
+  "id": "cmpl-70FdWuk2XK3TOYu0j63ENbE6mhORF",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1168,
+    "total_tokens": 1172
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": " they play?\n"
+    }
+  ],
+  "created": 1680294463,
+  "id": "cmpl-70FdX3LmjpAMLWpTrpi9ZWMTzEjVg",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1122,
+    "total_tokens": 1126
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": " in one text file"
+    }
+  ],
+  "created": 1680294463,
+  "id": "cmpl-70FdXqwzL1BsHyekuP67Op9pV7Ian",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1120,
+    "total_tokens": 1124
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\nfalse"
+    }
+  ],
+  "created": 1680294463,
+  "id": "cmpl-70FdXi3iWB6wJqjs4ZfZAfb6JmZDb",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1037,
+    "total_tokens": 1041
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\nfalse"
+    }
+  ],
+  "created": 1680294464,
+  "id": "cmpl-70FdYDIFMnV6QggTZDzDj0gGNyeQt",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1119,
+    "total_tokens": 1123
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\ntrue"
+    }
+  ],
+  "created": 1680294464,
+  "id": "cmpl-70FdYTNMBhSWvvw3CJrpgBXmjOdCs",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1112,
+    "total_tokens": 1116
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\ntrue"
+    }
+  ],
+  "created": 1680294464,
+  "id": "cmpl-70FdYFinnKoUnLvO4s0CJNOTEBzIn",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1164,
+    "total_tokens": 1168
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\ntrue"
+    }
+  ],
+  "created": 1680294465,
+  "id": "cmpl-70FdZl3CbSvtYaUHTPtOMbbmSYusP",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1143,
+    "total_tokens": 1147
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\ntrue"
+    }
+  ],
+  "created": 1680294465,
+  "id": "cmpl-70FdZnvL4yRY6ksGXRuuzwPeW3X5Q",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1268,
+    "total_tokens": 1272
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\nfalse"
+    }
+  ],
+  "created": 1680294466,
+  "id": "cmpl-70FdaNXNuWnRzxEmCLB3w7EunffCa",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1205,
+    "total_tokens": 1209
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\nfalse"
+    }
+  ],
+  "created": 1680294466,
+  "id": "cmpl-70FdasKnKnZHjYDo1fCMO9awcSr7b",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1153,
+    "total_tokens": 1157
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\ntrue"
+    }
+  ],
+  "created": 1680294466,
+  "id": "cmpl-70FdaSoBs3JSfG2Ned3EbRI3eZe3w",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1085,
+    "total_tokens": 1089
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\ntrue"
+    }
+  ],
+  "created": 1680294467,
+  "id": "cmpl-70Fdb9nu54sRcMayFhQ7M10Nxfqin",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1251,
+    "total_tokens": 1255
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\nfalse"
+    }
+  ],
+  "created": 1680294467,
+  "id": "cmpl-70FdbuzMgiF9J5PlHutb28Mg1GFRA",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1116,
+    "total_tokens": 1120
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\nfalse"
+    }
+  ],
+  "created": 1680294468,
+  "id": "cmpl-70Fdcvb6blnrtGVm793XGOGEETwj5",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1109,
+    "total_tokens": 1113
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\ntrue"
+    }
+  ],
+  "created": 1680294468,
+  "id": "cmpl-70Fdcc6G1QhYGHkGf1IsLBoFX3INy",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1160,
+    "total_tokens": 1164
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\ntrue"
+    }
+  ],
+  "created": 1680294468,
+  "id": "cmpl-70FdcTCza8fUyqsgbeCKrnsrIGbhw",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1287,
+    "total_tokens": 1291
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\ntrue"
+    }
+  ],
+  "created": 1680294469,
+  "id": "cmpl-70Fddt3aoRSh8MA8yH3XelDh9YZod",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1203,
+    "total_tokens": 1207
+  }
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 872.63it/s]
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\nfalse"
+    }
+  ],
+  "created": 1680294470,
+  "id": "cmpl-70Fdea3178hR1EqXN0tX7cLW1nVpe",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1075,
+    "total_tokens": 1079
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\ntrue"
+    }
+  ],
+  "created": 1680294470,
+  "id": "cmpl-70Fde5QzwAZxShUGAR3aCzfh0rUpu",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1046,
+    "total_tokens": 1050
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": ".\n\nfalse"
+    }
+  ],
+  "created": 1680294470,
+  "id": "cmpl-70FdeDP3JtPxJ46fsDiZXP5dUk6YX",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1236,
+    "total_tokens": 1240
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\nfalse"
+    }
+  ],
+  "created": 1680294471,
+  "id": "cmpl-70FdfyOdBe66Bbgykuh6PxPbldGfN",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1056,
+    "total_tokens": 1060
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\ntrue"
+    }
+  ],
+  "created": 1680294471,
+  "id": "cmpl-70FdfR1KCz8lwj0jHcPS1hXsCDfeb",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1369,
+    "total_tokens": 1373
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\nfalse"
+    }
+  ],
+  "created": 1680294471,
+  "id": "cmpl-70FdfzAgWGv02o0tydndrIsXs0fnF",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1130,
+    "total_tokens": 1134
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\nfalse"
+    }
+  ],
+  "created": 1680294472,
+  "id": "cmpl-70FdgD31Hd6Rl5i0JWksbJWQlm2cP",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1113,
+    "total_tokens": 1117
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\nfalse"
+    }
+  ],
+  "created": 1680294472,
+  "id": "cmpl-70FdgFf43vofGHWuAMCq8khNmeD1w",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1047,
+    "total_tokens": 1051
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\ntrue"
+    }
+  ],
+  "created": 1680294473,
+  "id": "cmpl-70FdhGHwXfMyEkQTscjnuSdhxO0AD",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1212,
+    "total_tokens": 1216
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\ntrue"
+    }
+  ],
+  "created": 1680294473,
+  "id": "cmpl-70FdhyMHsMmRdNqQ2EXxrR7QIIiuD",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1162,
+    "total_tokens": 1166
+  }
+}
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "?\n\ntrue"
+    }
+  ],
+  "created": 1680294473,
+  "id": "cmpl-70FdhPSgoUo3hZtCTqiJsCFnVNxzm",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 1055,
+    "total_tokens": 1059
+  }
+}
+0.5333333333333333
