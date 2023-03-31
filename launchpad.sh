@@ -11,11 +11,17 @@
 module load anaconda
 
 # init virtual environment if needed
-# conda create -n toy_classification_env python=3.7
-
+#conda create -n toy_classification_env python=3.7
 conda activate toy_classification_env # open the Python environment
 
 pip install -r requirements.txt # install Python dependencies
+pip install typing-extensions --upgrade
+pip install --upgrade openai
+python setup.py install
+pip install accelerate
+
+conda install -c pytorch faiss-gpu
 
 # runs your code
-srun python classification.py  --experiment "overfit" --small_subset True --device cuda --model "distilbert-base-uncased" --batch_size "256" --lr 1e-4 --num_epochs 20
+srun python hw7_classification.py --device cuda --model "bigscience/bloomz" --batch_size "32" --lr 1e-3 --num_epochs 9
+#srun python open_ai.py
