@@ -1,0 +1,118 @@
+GOLD LABEL: False
+BLOOMZ RESPONSE: [{'generated_text': ' is a subsidiary of intel'}]
+PROMPT: Faster-than-light (also superluminal or FTL) communication and travel refer to the propagation of information or matter faster than the speed of light. The special theory of relativity implies that only particles with zero rest mass may travel at the speed of light. Tachyons, particles whose speed exceeds that of light, have been hypothesized but the existence of such particles would violate causality and the consensus of physicists is that such particles cannot exist. 
+ Answer this question with True or False: can anything be faster than the speed of light
+GOLD LABEL: False
+BLOOMZ RESPONSE: [{'generated_text': '?\nIf the answer is'}]
+PROMPT: The Amazon river dolphin is the largest species of river dolphin, with adult males reaching 185 kilograms (408 lb) in weight, and 2.5 metres (8.2 ft) in length. Adults acquire a pink color, more prominent in males, giving it its nickname ``pink river dolphin''. Sexual dimorphism is very evident, with males measuring 16% longer and weighing 55% more than females. Like other toothed whales, they have a melon, an organ that is used for bio sonar. The dorsal fin, although short in height, is regarded as long, and the pectoral fins are also large. The fin size, unfused vertebrae, and its relative size allow for improved manoeuvrability when navigating flooded forests and capturing prey. 
+ Answer this question with True or False: is there such a thing as pink dolphins
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': '? If yes, why'}]
+PROMPT: A Star Is Born is a 2018 American music-themed romantic drama film produced and directed by Bradley Cooper (in his directorial debut) and written by Cooper, Eric Roth and Will Fetters. A remake of the 1937 film of the same name, it stars Cooper, Lady Gaga, Andrew Dice Clay, Dave Chappelle, and Sam Elliott, and follows a hard-drinking musician (Cooper) who discovers and falls in love with a young singer (Gaga). It marks the fourth remake of the original 1937 film, after the 1954 musical, the 1976 rock musical and the 2013 Bollywood romance film. 
+ Answer this question with True or False: is the current movie a star is born a remake
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': ' of the original movie of'}]
+PROMPT: The German Shepherd (German: Deutscher Schäferhund, German pronunciation: (ˈʃɛːfɐˌhʊnt)) is a breed of medium to large-sized working dog that originated in Germany. The breed's officially recognized name is German Shepherd Dog in the English language (sometimes abbreviated as GSD). The breed is also known as the Alsatian in Britain and Ireland. The German Shepherd is a relatively new breed of dog, with their origin dating to 1899. As part of the Herding Group, German Shepherds are working dogs developed originally for herding sheep. Since that time however, because of their strength, intelligence, trainability, and obedience, German Shepherds around the world are often the preferred breed for many types of work, including disability assistance, search-and-rescue, police and military roles, and even acting. The German Shepherd is the second-most registered breed by the American Kennel Club and seventh-most registered breed by The Kennel Club in the United Kingdom. 
+ Answer this question with True or False: is an alsation the same as a german shepherd
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': '?\nI am not sure'}]
+PROMPT: The House of Representatives elects the Speaker of the House on the first day of every new Congress and in the event of the death, resignation or removal from the Chair of an incumbent Speaker. The Clerk of the House of Representatives requests nominations: there are normally two, one from each major party (each party having previously met to decide on its nominee). The Clerk then calls the roll of the Representatives, each Representative indicating the surname of the candidate the Representative is supporting. Representatives are not restricted to voting for one of the nominated candidates and may vote for any person, even for someone who is not a member of the House at all. They may also abstain by voting ``present''. 
+ Answer this question with True or False: does the president choose the speaker of the house
+GOLD LABEL: False
+BLOOMZ RESPONSE: [{'generated_text': '?\n\nA:\n\nI would'}]
+PROMPT: The Isle of Wight (/waɪt/; also referred to informally as IoW or The Island) is a county and the largest and second-most populous island in England. It is in the English Channel, about 2 miles (3.2 km) off the coast of Hampshire, separated by the Solent. The island has resorts that have been holiday destinations since Victorian times, and is known for its mild climate, coastal scenery, and verdant landscape of fields, downland and chines. 
+ Answer this question with True or False: is the isle of wight part of england
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': '?'}]
+PROMPT: Birthright citizenship in the United States is United States citizenship acquired by virtue of the circumstances of birth. It contrasts with citizenship acquired in other ways, for example by naturalization later in life. Birthright citizenship may be conferred by jus soli or jus sanguinis. Under United States law, U.S. citizenship is automatically granted to any person born within and subject to the jurisdiction of the United States. This includes the territories of Puerto Rico, the Marianas (Guam and the Northern Mariana Islands) and the U.S. Virgin Islands, and also applies to children born elsewhere in the world to U.S. citizens (with certain exceptions). 
+ Answer this question with True or False: are you an american citizen if you are born here
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': '\n\nA:\n\nAccording to'}]
+PROMPT: In the fifth season episode ``Good God, Y'all!'', Ellen reappears with Jo to help fellow hunter Rufus kill demons that have laid siege to a small town. By the time the Winchesters arrive, it appears that Jo, Rufus, and some other townspeople have become demonically possessed. However, Ellen and Dean eventually realize that War, one of the Four Horsemen of the Apocalypse, is making the townspeople see each other as demons. Sam and Dean break War's spell just as Ellen is about to be killed by one of the town's residents. In ``Abandon All Hope...'', Ellen and Jo once again team up with the brothers to find Lucifer and kill him. Upon their arrival in a seemingly abandoned small town, however, they are attacked by the demon Meg and a pack of hellhounds. Jo is severely mauled, forcing them to barricade themselves inside a hardware store. Knowing that her wounds are fatal and that Lucifer must be stopped, Jo convinces them to build a bomb and to use her as bait for a trap. Ellen stays behind and opens the front doors while the Winchesters escape onto the roof. After Jo dies in her arms, Ellen blows up the building, killing the hellhounds and herself in the process. 
+ Answer this question with True or False: didn't ellen and jo die in supernatural
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': '? if so why?'}]
+PROMPT: Two years after the events of ``All Out War,'' Andrea is shown to still be with Rick, and now has Carl calling her ``mom.'' She is preparing to run a fair that has been in preparation for months. They live in the re-built Alexandria Safe Zone with perimeter checks around the DC area to navigate their ways across the communities. She later tells Rick she agrees with the decision to send their son to the Hilltop to become a blacksmith apprentice. She bids Carl a farewell, telling him to follow Maggie's rules. In Rick's absence to trek to the Hilltop, she is the leader of the Alexandria Safe Zone. Andrea is questioned by newcomer Magna and her group about how they survived. She explains to Magna about the events of the war that unfolded. Andrea holds a gun to Negan's head as he gets cleaned up in his prison cell, but later learns Olivia forgot to lock the cell door. She later urges the returned Rick to kill him again. The morning before the fair, Andrea wakes up early and meets with Siddiq to check on the structure for the fair, tearing up at the sight of vendors and booths being set up. When she learns of Carl's disappearance, she joins Rick, Michonne, and Dante in a mission to bring him back safely. Once they are held hostage by the Whisperers, a tribe of thousands disguised as roamers, she sees the marked border of territories where she witnesses dozens of people she knew from each of the communities with their heads on spikes. After the massive walker herd swarms Alexandria, Andrea and a group of other survivors including Magna, Eugene and Yumiko try to lead the walkers away. Eugene and Andrea lead a large portion of the herd towards the ocean. Eugene attempts to lead more of the walkers away with the horn, but Andrea is reluctant. Andrea and the others stare in shock at the small wound on her neck which is revealed to be a bite from a walker. Upon returning to Alexandria, Rick and others say their farewells as she slowly passes away. Before her death, she reminds Rick to stay strong and continue to lead the community to rebuild society. Andrea eventually reanimates as walker and tries to kill Rick, only for him to stab her in the head with a knife. 
+ Answer this question with True or False: is andrea still alive in the walking dead comic
+GOLD LABEL: False
+BLOOMZ RESPONSE: [{'generated_text': ' books?\n\nA:\n\nI'}]
+PROMPT: Most modern internal combustion engines are cooled by a closed circuit carrying liquid coolant through channels in the engine block and cylinder head, where the coolant absorbs heat, to a heat exchanger or radiator where the coolant releases heat into the air (or raw water, in the case of marine engines). Thus, while they are not ultimately cooled by the liquid, because of the liquid-coolant circuit they are known as water-cooled. In contrast, heat generated by an air-cooled engine is released directly into the air. (Direct Cooled Engine) Typically this is facilitated with metal fins covering the outside of the Cylinder Head and cylinders which increase the surface area that air can act on. Air may be force fed with the use of a fan and shroud to achieve efficient cooling with high volumes of air or simply by natural air flow with well designed and angled fins. 
+ Answer this question with True or False: does an air cooled engine have a radiator
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': '?\n\nA:\n\nIt depends'}]
+PROMPT: A mule is the offspring of a male donkey (jack) and a female horse (mare). Horses and donkeys are different species, with different numbers of chromosomes. Of the two F1 hybrids (first generation hybrids) between these two species, a mule is easier to obtain than a hinny, which is the offspring of a female donkey (jenny) and a male horse (stallion). 
+ Answer this question with True or False: do horse and donkey belong to the same species
+GOLD LABEL: False
+BLOOMZ RESPONSE: [{'generated_text': '?\nI know that horse'}]
+PROMPT: While most of the cast in the books are based on stuffed animals owned by Christopher Robin Milne, Ernest H. Shepard's illustrations of Rabbit look more like a living animal. Rabbit resembles a typical rabbit, except that he walks on two legs and uses his front paws as hands. The top of his head reaches about to Pooh's nose. 
+ Answer this question with True or False: is rabbit a stuffed animal winnie the pooh
+GOLD LABEL: False
+BLOOMZ RESPONSE: [{'generated_text': '?'}]
+PROMPT: ``Drinkin' Problem'' is the debut single of the American country music band Midland. It was released on February 27, 2017, as the first single from their debut album On the Rocks. The band members wrote the song with Josh Osborne and Shane McAnally, the latter of whom also produced it. 
+ Answer this question with True or False: is the song drinking problem by midland a remake
+GOLD LABEL: False
+BLOOMZ RESPONSE: [{'generated_text': ' of the song drinking problem'}]
+PROMPT: Traditionally, the race is held primarily in the month of July. While the route changes each year, the format of the race stays the same with the appearance of time trials, the passage through the mountain chains of the Pyrenees and the Alps, and the finish on the Champs-Élysées in Paris. The modern editions of the Tour de France consist of 21 day-long segments (stages) over a 23-day period and cover around 3,500 kilometres (2,200 mi). The race alternates between clockwise and counterclockwise circuits of France. 
+ Answer this question with True or False: does the tour de france take the same route every year
+GOLD LABEL: False
+BLOOMZ RESPONSE: [{'generated_text': '?\nThe Tour de France'}]
+PROMPT: An antifreeze is an additive which lowers the freezing point of a water-based liquid and increases its boiling point. An antifreeze mixture is used to achieve freezing-point depression for cold environments and also achieves boiling-point elevation (``anti-boil'') to allow higher coolant temperature. Freezing and boiling points are colligative properties of a solution, which depend on the concentration of the dissolved substance. 
+ Answer this question with True or False: does antifreeze lower the boiling point of water
+GOLD LABEL: False
+BLOOMZ RESPONSE: [{'generated_text': '?\n\nA:\n\nAntif'}]
+PROMPT: A Cure for Wellness is a 2016 psychological horror film directed by Gore Verbinski, written by Justin Haythe, and starring Dane DeHaan, Jason Isaacs, and Mia Goth. Its plot follows a young executive who is sent to retrieve a colleague from a mysterious rehabilitation center in the Swiss Alps. 
+ Answer this question with True or False: is a cure for wellness a horror movie
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': '?'}]
+PROMPT: In baseball, the designated hitter rule is the common name for Major League Baseball Rule 5.11, adopted by the American League in 1973. The rule allows teams to have one player, known as the designated hitter (abbreviated DH), to bat in place of the pitcher. Since 1973, most collegiate, amateur, and professional leagues have adopted the rule or some variant. MLB's National League and Nippon Professional Baseball's Central League are the most prominent professional leagues that do not use a designated hitter. 
+ Answer this question with True or False: do pitchers have to hit in the national league
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': '? \nAnswer: True\n'}]
+PROMPT: Brockovich's work in bringing litigation against Pacific Gas and Electric was the focus of the 2000 feature film, Erin Brockovich, starring Julia Roberts in the title role. The film was nominated for five Academy Awards: Best Actress in a Leading Role, Best Actor in a Supporting Role, Best Director, Best Picture, and Best Writing in a Screenplay Written Directly for the Screen. Roberts won the Academy Award for Best Actress for her portrayal of Erin Brockovich. Erin Brockovich herself had a cameo role as a waitress named Julia R. 
+ Answer this question with True or False: is the real erin brockovich in the movie
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': '?\n\nA:\n\nYes,'}]
+PROMPT: Petitioner attempts to argue an absurd proposition, essentially that the State of Illinois is not part of the United States. His hope is that he will find some semantic technicality which will render him exempt from Federal income tax, which applies generally to all U.S. citizens and residents. Suffice it to say, we find no support in any of the authorities petitioner cites for his position that he is not subject to Federal income tax on income he earned in Illinois. 
+ Answer this question with True or False: do you have to pay taxes in the united states
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': ' if you are a citizen'}]
+PROMPT: Charles B. McVay III (July 30, 1898 -- November 6, 1968) was an American naval officer and the commanding officer of USS Indianapolis (CA-35) when it was lost in action in 1945, resulting in a massive loss of life. Of all captains in the history of the United States Navy, he is the only one to have been subjected to court-martial for losing a ship sunk by an act of war, despite the fact that he was on a top secret mission maintaining radio silence (the testimony of the Japanese commander who sank his ship also seemed to exonerate McVay). After years of mental health problems, he committed suicide. Following years of efforts by some survivors and others to clear his name, McVay was posthumously exonerated by the 106th United States Congress and President Bill Clinton on October 30, 2000. 
+ Answer this question with True or False: did the captain of the uss indianapolis survive
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': ' the sinking?\nMc'}]
+PROMPT: Because the Columbia was at the same latitude as the headwaters of the Missouri River, there was some speculation that Gray and Vancouver had discovered the long-sought Northwest Passage. A 1798 British map showed a dotted line connecting the Columbia with the Missouri. When the American explorers Meriwether Lewis and William Clark charted the vast, unmapped lands of the American West in their overland expedition (1803--05), they found no passage between the rivers. After crossing the Rocky Mountains, Lewis and Clark built dugout canoes and paddled down the Snake River, reaching the Columbia near the present-day Tri-Cities, Washington. They explored a few miles upriver, as far as Bateman Island, before heading down the Columbia, concluding their journey at the river's mouth and establishing Fort Clatsop, a short-lived establishment that was occupied for less than three months. 
+ Answer this question with True or False: does the missouri river connect to the columbia river
+GOLD LABEL: False
+BLOOMZ RESPONSE: [{'generated_text': '? and give me the'}]
+PROMPT: The fourteenth season of the American television medical drama Grey's Anatomy was ordered on February 10, 2017, by American Broadcasting Company (ABC), and premiered on September 28, 2017 with a special two-hour premiere. The season will consist of 24 episodes, with the season's seventh episode marking the 300th episode for the series overall. The season is produced by ABC Studios, in association with Shondaland Production Company and The Mark Gordon Company; the showrunners being Krista Vernoff and William Harper. 
+ Answer this question with True or False: will there be a greys anatomy season 14
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': '?'}]
+PROMPT: Popular mnemonics used to remember the setup are ``queen on her own color'' and ``white on right''. The latter refers to setting up the board so that the square closest to each player's right is white (Schiller 2003:16--17). 
+ Answer this question with True or False: does the queen go on her color in chess
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': '?\n\nA:\n\nNo.'}]
+PROMPT: Radio waves in vacuum travel at the speed of light. When passing through a material medium, they are slowed according to that object's permeability and permittivity. Air is thin enough that in the Earth's atmosphere radio waves travel very close to the speed of light. 
+ Answer this question with True or False: do radio waves penetrate the earth's atmosphere
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': '?'}]
+PROMPT: There are no survivors; Linda reads the eulogy at the memorial, followed by her remembering Billy's voice soliloquising about what it means to be a swordboat captain. 
+ Answer this question with True or False: does the crew die in the perfect storm
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': '? True, they do'}]
+PROMPT: Jockeys must be light to ride at the weights which are assigned to their mounts. There are horse carrying weight limits, that are set by racing authorities. The Kentucky Derby, for example, has a weight limit of 126 lb (57 kg) including the jockey's equipment. The weight of a jockey usually ranges from 108 to 118 lb (49 to 54 kg). Despite their light weight, they must be able to control a horse that is moving at 40 mph (64 km/h) and weighs 1,200 lb (540 kg). Though there is no height limit for jockeys, they are usually fairly short due to the weight limits. Jockeys typically stand around 4 ft 10 in (147 cm) to 5 ft 6 in (168 cm). 
+ Answer this question with True or False: do jockeys have to weigh a certain amount
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': ' in order to ride?\n'}]
+PROMPT: The word ``kangaroo'' derives from the Guugu Yimithirr word gangurru, referring to grey kangaroos. The name was first recorded as ``kanguru'' on 12 July 1770 in an entry in the diary of Sir Joseph Banks; this occurred at the site of modern Cooktown, on the banks of the Endeavour River, where HMS Endeavour under the command of Lieutenant James Cook was beached for almost seven weeks to repair damage sustained on the Great Barrier Reef. Cook first referred to kangaroos in his diary entry of 4 August. Guugu Yimithirr is the language of the people of the area. 
+ Answer this question with True or False: does the word kangaroo mean i don't know
+GOLD LABEL: False
+BLOOMZ RESPONSE: [{'generated_text': '\nThe word kangaroo'}]
+PROMPT: The Lord of the Rings is an epic high fantasy novel written by English author and scholar J.R.R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is one of the best-selling novels ever written, with over 150 million copies sold. 
+ Answer this question with True or False: is lord of the rings considered an epic
+GOLD LABEL: True
+BLOOMZ RESPONSE: [{'generated_text': ' poem?'}]
+PROMPT: The Mexican peso is the currency (ISO 4217: MXN; symbol: $). One peso is divided into 100 centavos (cents). MXN replaced MXP in 1993 at a rate of 1000 MXP per 1 MXN. The exchanged rate remained stable between 1998 and 2006, oscillating between 10.20 and 11=3.50 MXN per US$, recently the Mexican peso parity took a hit under president Enrique Peña Nieto, lost in a single year 19.87% of its value and is currently at $20.37 (2017). Interest rates in 2007 were situated at around 7 percent, having reached a historic low in 2002 below 5 percent. Inflation rates are also at historic lows; the inflation rate in Mexico in 2006 was 4.1 percent, and 3 percent by the end of 2007. Compared against the US Dollar, Mexican Peso has devalued over %7,500 since 1910. 
+ Answer this question with True or False: is american money worth more than mexican money
+GOLD LABEL: False
+BLOOMZ RESPONSE: [{'generated_text': ' in mexico? If'}]
