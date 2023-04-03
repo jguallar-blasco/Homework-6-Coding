@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import torch
 from torch.utils.data import DataLoader
-from transformers import AutoTokenizerfrom torch.utils.data import DataLoader
+from transformers import AutoTokenizerfrom torch.utils.data
 from datasets import load_dataset
 import evaluate as evaluate
 from transformers import get_scheduler
@@ -302,20 +302,6 @@ if __name__ == "__main__":
         print(acc)
 
         exit()
-
-    if args.model == "bigscience/bloomz":
-        dataset = load_dataset("boolq")
-        dataset = dataset.shuffle()  # shuffle the data
-
-        dataset_subset = dataset['train'][:30]
-
-        passages=list(dataset_subset['passage'])
-        questions=list(dataset_subset['question'])
-        answers=list(dataset_subset['answer'])
-
-        print(passages)
-        print(questions)
-        print(answers)
    
     # load the data and models
     pretrained_model, train_dataloader, validation_dataloader, test_dataloader = pre_process(args.model,
